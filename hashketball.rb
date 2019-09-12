@@ -225,7 +225,7 @@ def player_stats(name)
             if key != (:player_name)
               players_stat_hash[key] = value
               i+=1
-              binding.pry
+              
             end
           end
         end
